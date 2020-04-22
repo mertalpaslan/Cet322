@@ -1,6 +1,4 @@
-﻿
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -29,14 +27,12 @@
                         </li>
                         <div class="dropdown show">
                             <button class="btn dropdown-toggle nav-link text-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown button
+                                Kategoriler
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Index"> Bütün Kategoriler</a>
-                                @foreach (var item in Model)
-                                {
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Index"> @item.Name</a>
-                                }
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Index"> Kategori1</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Index"> Kategori2</a>
                             </div>
                         </div>
                         <li class="nav-item">
